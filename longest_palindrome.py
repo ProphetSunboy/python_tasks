@@ -1,9 +1,8 @@
 def longest_palindrome (s):
     """
-    def longest_palindrome(s):
-    
-    Return the length of the longest substring in the given string s that is the
-    same in reverse. 
+    longest_palindrome(s)    
+        Return the length of the longest substring in the given string s that is
+        the same in reverse. 
     """
     max_pal = 0
     for i in range(len(s)):
