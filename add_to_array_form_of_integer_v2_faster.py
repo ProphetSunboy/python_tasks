@@ -8,7 +8,7 @@ class Solution:
 
         Given num, the array-form of an integer, and an integer k, return
         the array-form of the integer num + k.
-        {Leetcode beats 94%}
+        {Leetcode beats 94.94%}
         """
         while len(num) < len(str(k)):
             num.insert(0, 0)
