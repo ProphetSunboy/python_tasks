@@ -15,6 +15,7 @@ class Solution:
             col = [grid[j][i] for j in range(len(grid))]
 
             col = tuple(col)
+            
             if col not in cols:
                 cols[col] = 1
             else:
