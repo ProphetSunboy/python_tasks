@@ -16,6 +16,8 @@ class Solution:
             concatenation the transformation of a word.
 
         Return the number of different transformations among all words we have.
+
+        LeetCode: Beats 96.39%
         """
         morse = [
                  ".-","-...","-.-.","-..",".","..-.","--.","....","..",".---",
