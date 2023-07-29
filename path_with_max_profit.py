@@ -4,7 +4,7 @@ def path_with_max_profit(prices: list[list[int]]):
 
     Inside prices you can move right or down.
 
-    :param list[list] prices: matrix of prices
+    :param list[list[int]] prices: matrix of prices
     :returns tuple (int max_profit, list path)
 
     Time complexity: O(n^2)

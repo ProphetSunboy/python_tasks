@@ -24,7 +24,7 @@ class Solution:
 
         :param list[int] widths: how many pixels each letter is
         :param str s: string of lowercase English letters
-        :returns list[int]: total number of lines, width of the last line in pixels
+        :returns list[int] res: total number of lines, width of the last line in pixels
 
         Time complexity: O(n)
         Space complexity: O(1)
