@@ -16,10 +16,18 @@ class Solution:
         letters as you can on the second line. Continue this process until you
         have written all of s.
 
-        Return an array result of length 2 where:
+        Return an list result of length 2 where:
 
             result[0] is the total number of lines.
             result[1] is the width of the last line in pixels.
+
+
+        :param list[int] widths: how many pixels each letter is
+        :param str s: string of lowercase English letters
+        :returns list[int]: total number of lines, width of the last line in pixels
+
+        Time complexity: O(n)
+        Space complexity: O(1)
 
         LeetCode: Beats 96.86%
         """

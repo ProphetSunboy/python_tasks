@@ -1,4 +1,4 @@
-def path_with_max_profit(prices: list[list]):
+def path_with_max_profit(prices: list[list[int]]):
     """
     Given the price matrix prices, return the max profit and it's path.
 
