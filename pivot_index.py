@@ -11,10 +11,10 @@ class Solution:
         because there are no elements to the left. This also applies to the
         right edge of the array.
 
+        Return the leftmost pivot index. If no such index exists, return -1.
+
         :param list[int] nums: list of integers
         :returns int pivot: pivot index if it exists, -1 otherwise
-
-        Return the leftmost pivot index. If no such index exists, return -1.
 
         Time complexity: O(n)
         Space complexity: O(1)
