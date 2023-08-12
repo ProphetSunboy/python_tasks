@@ -12,8 +12,9 @@ class Solution:
         An obstacle and space are marked as 1 or 0 respectively in grid. A path
         that the robot takes cannot include any square that is an obstacle.
 
-        :param str word: word, where we search capitals
-        :returns bool ans: search result
+        :param list[list[int]] obstacleGrid: grid of obstacles and spaces
+        :returns int unique_paths: the number of possible unique paths that the robot can take to
+        reach the bottom-right corner
 
         Time complexity: O(n^2)
         Space complexity: O(n^2)
