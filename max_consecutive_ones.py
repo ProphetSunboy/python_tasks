@@ -4,7 +4,7 @@ class Solution:
         Given a binary list nums, return the maximum number of consecutive 1's
         in the list.
 
-        :param int nums: binary list
+        :param list[int] nums: binary list
         :returns int max_cons: maximum number of consecutive 1's
 
         Time complexity: O(n)
