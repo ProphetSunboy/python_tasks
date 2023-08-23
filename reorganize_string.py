@@ -10,7 +10,7 @@ class Solution:
         Return any possible rearrangement of s or return "" if not possible.
 
         :param int s: original strig
-        :returns int alt_sum: alternating digit sum
+        :returns str res: rearrangement of s
 
         Time complexity: O(n^2logn)
         Space complexity: O(n)
