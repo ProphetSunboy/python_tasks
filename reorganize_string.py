@@ -9,7 +9,7 @@ class Solution:
 
         Return any possible rearrangement of s or return "" if not possible.
 
-        :param int s: original strig
+        :param str s: original string
         :returns str res: rearrangement of s
 
         Time complexity: O(n^2logn)
