@@ -9,8 +9,8 @@ class Solution:
         they occur.
 
         :param str s: binary string
-        :returns alterating_bits: number of non-empty substrings that have the
-        same number of 0's and 1's, and all the 0's and all the 1's in these
+        :returns int alterating_bits: number of non-empty substrings that have
+        the same number of 0's and 1's, and all the 0's and all the 1's in these
         substrings are grouped consecutively
 
         Time complexity: O(n)
