@@ -17,8 +17,6 @@ class Solution:
 
         LeetCode: Beats 98.97%
         """
-        last_chr = 1
-
         i = 0
         while i < len(bits):
             if bits[i] == 1:
