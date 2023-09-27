@@ -11,8 +11,8 @@ class Solution:
         :param bool equal: s and t are equal when both are typed into empty text
         editors
 
-        Time complexity: O(n)
-        Space complexity: O(n)
+        Time complexity: O(n+m)
+        Space complexity: O(n+m)
 
         LeetCode: Beats 99.27%
         """
