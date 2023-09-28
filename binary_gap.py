@@ -11,8 +11,8 @@ class Solution:
         "1001" have a distance of 3.
 
         :param int n: positive integer
-        :param int longest_gap: longest distance between any two adjacent 1's in
-        the binary representation of n
+        :returns int longest_gap: longest distance between any two adjacent 1's
+        in the binary representation of n
 
         Time complexity: O(n)
         Space complexity: O(n)

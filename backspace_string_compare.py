@@ -8,8 +8,8 @@ class Solution:
 
         :param str s: string
         :param str t: string
-        :param bool equal: s and t are equal when both are typed into empty text
-        editors
+        :returns bool equal: s and t are equal when both are typed into empty
+        text editors
 
         Time complexity: O(n+m)
         Space complexity: O(n+m)
