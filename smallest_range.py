@@ -1,7 +1,7 @@
 class Solution:
     def smallestRangeI(self, nums: list[int], k: int) -> int:
         """
-        You are given an integer array nums and an integer k.
+        You are given an integer list nums and an integer k.
 
         In one operation, you can choose any index i where 0 <= i < nums.length
         and change nums[i] to nums[i] + x where x is an integer from the range
@@ -14,7 +14,8 @@ class Solution:
         at most once for each index in it.
 
         :param list[int] nums: list of integers
-        :returns int good_pairs: number of good pairs in nums
+        :param int k: integer
+        :returns int min_score: minimum score in nums
 
         Time complexity: O(n)
         Space complexity: O(1)
