@@ -25,3 +25,10 @@ class FirstSolution:
             complement += flips[ch == "1"]
 
         return int(complement, 2)
+
+
+class SecondSolution:
+    def bitwiseComplement(self, n: int) -> int:
+        bin_n = bin(n)[2:]
+
+        return int(bin_n.translate(str.maketrans("01", "10")), 2)
