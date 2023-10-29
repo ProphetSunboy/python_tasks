@@ -9,7 +9,7 @@ class Solution:
 
         :param str str1: string
         :param str str2: string
-        :returns x: largest string x such that x divides both str1 and str2.
+        :returns str x: largest string x such that x divides both str1 and str2
 
         Time complexity: O(n)
         Space complexity: O(n)
