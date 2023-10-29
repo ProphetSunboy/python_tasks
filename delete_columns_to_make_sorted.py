@@ -8,9 +8,4 @@ class Solution:
                 if strs[i][col] < strs[i - 1][col]:
                     cols.pop(col)
 
-        return len(strs) - len(cols)
-
-
-a = Solution()
-
-print(a.minDeletionSize(["a", "b"]))
+        return len(strs[0]) - len(cols)
