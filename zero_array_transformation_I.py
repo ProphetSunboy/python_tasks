@@ -25,3 +25,21 @@ class Solution:
                 return False
 
         return True
+
+
+# Second Solution numpy array
+from numpy import array as arr
+
+
+class Solution:
+    def isZeroArray(self, nums: list[int], queries: list[list[int]]) -> bool:
+        sub = arr([0] * len(nums))
+
+        for querie in queries:
+            sub[querie[0] : querie[1] + 1] += 1
+
+        for i in range(len(nums)):
+            if (nums[i] - sub[i]) > 0:
+                return False
+
+        return True
