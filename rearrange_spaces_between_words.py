@@ -24,13 +24,13 @@ class Solution:
 
         LeetCode: Beats 100% of submissions
         """
-        spaces = text.count(" ")
+        total_spaces = text.count(" ")
         words = text.split()
-        between_words = 0
-        extra_s = spaces
+        spaces_between_words = 0
+        extra_spaces = total_spaces
 
         if len(words) > 1:
-            between_words = spaces // (len(words) - 1)
-            extra_s = spaces % (len(words) - 1)
+            spaces_between_words = total_spaces // (len(words) - 1)
+            extra_spaces = total_spaces % (len(words) - 1)
 
-        return (" " * between_words).join(words) + " " * extra_s
+        return (" " * spaces_between_words).join(words) + " " * extra_spaces
