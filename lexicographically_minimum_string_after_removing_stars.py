@@ -1,5 +1,27 @@
 class Solution:
     def clearStars(self, s: str) -> str:
+        """Removes all '*' characters from a string by repeatedly removing the leftmost '*' and the smallest character to its left.
+
+        For each '*' encountered, the algorithm removes both the '*' and the lexicographically smallest
+        non-'*' character that appears before it. If multiple smallest characters exist, any can be chosen.
+
+        Args:
+            s (str): Input string that may contain '*' characters
+
+        Returns:
+            str: The resulting string after removing all '*' characters and their corresponding smallest
+                 characters to the left
+
+        Example:
+            >>> clearStars("a*b*c")
+            'c'
+            >>> clearStars("abc*")
+            'bc'
+
+        Time complexity: O(n²) - where n is the length of the string, as we may need to scan backwards
+                         for each '*' encountered
+        Space complexity: O(n) - for storing the list representation of the string
+        """
         res = ""
         l = list(s)
 
@@ -21,7 +43,3 @@ class Solution:
                 res += ch
 
         return res
-
-
-a = Solution()
-print(a.clearStars("de*"))
