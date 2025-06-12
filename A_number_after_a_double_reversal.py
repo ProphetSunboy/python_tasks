@@ -22,6 +22,8 @@ class Solution:
 
         Time complexity: O(n) - where n is number of digits
         Space complexity: O(n) - for string conversion
+
+        LeetCode: Beats 100% of submissions
         """
         if num == 0:
             return True
