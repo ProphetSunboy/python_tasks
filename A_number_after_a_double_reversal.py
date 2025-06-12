@@ -1,3 +1,4 @@
+# First solution
 class Solution:
     def isSameAfterReversals(self, num: int) -> bool:
         """Checks if a number remains the same after double reversal.
@@ -26,3 +27,12 @@ class Solution:
             return True
 
         return str(num)[::-1].lstrip("0")[::-1] == str(num)
+
+
+# Second solution
+class Solution:
+    def isSameAfterReversals(self, num: int) -> bool:
+        if num > 0 and num % 10 == 0:
+            return False
+
+        return True
