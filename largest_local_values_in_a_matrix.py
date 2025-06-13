@@ -34,3 +34,22 @@ class Solution:
                             max_local[i - 1][j - 1] = grid[l][k]
 
         return max_local
+
+
+# Second attempt
+class Solution:
+    def largestLocal(self, grid: list[list[int]]) -> list[list[int]]:
+        max_local = []
+
+        for _ in range(len(grid) - 2):
+            max_local.append([0] * (len(grid[0]) - 2))
+
+        for i in range(len(grid) - 2):
+            for j in range(len(grid) - 2):
+                max1 = max(grid[i][j], grid[i][j + 1], grid[i][j + 2])
+                max2 = max(grid[i + 1][j], grid[i + 1][j + 1], grid[i + 1][j + 2])
+                max3 = max(grid[i + 2][j], grid[i + 2][j + 1], grid[i + 2][j + 2])
+
+                max_local[i][j] = max(max1, max2, max3)
+
+        return max_local
