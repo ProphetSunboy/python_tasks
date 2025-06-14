@@ -27,3 +27,9 @@ class Solution:
         LeetCode: Beats 100% of submissions
         """
         return len([1 for detail in details if detail[11:13] > "60"])
+
+
+# Second solution
+class Solution:
+    def countSeniors(self, details: list[str]) -> int:
+        return len(list(filter(lambda x: x[11:13] > "60", details)))
