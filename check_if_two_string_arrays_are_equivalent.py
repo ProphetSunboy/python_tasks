@@ -1,7 +1,6 @@
 class Solution:
     def arrayStringsAreEqual(self, word1: list[str], word2: list[str]) -> bool:
-        """
-        Determines if two string lists represent the same string.
+        """Determines if two string lists represent the same string.
 
         Concatenates the elements of each list in order and compares the resulting strings.
 
