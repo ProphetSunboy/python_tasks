@@ -1,7 +1,6 @@
 class Solution:
     def get_k_based_number(self, num: int, k: int) -> list[int]:
-        """
-        Converts a given integer to its base-k representation as a list of digits (least significant digit first).
+        """Converts a given integer to its base-k representation as a list of digits (least significant digit first).
 
         Args:
             num (int): The integer to convert.
