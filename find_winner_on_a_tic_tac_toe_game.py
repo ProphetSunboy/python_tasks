@@ -52,3 +52,35 @@ class Solution:
                     return "Pending"
 
         return "Draw"
+
+
+# Second solution
+class Solution:
+    def tictactoe(self, moves: list[list[int]]) -> str:
+        """
+        LeetCode: Beats 100% of submissions
+        """
+        players = {0: "X", 1: "O"}
+        grid = [[0] * 3 for _ in range(3)]
+
+        for i, move in enumerate(moves):
+            grid[move[0]][move[1]] = players[i % 2]
+
+        for i in range(3):
+            if grid[i][0] != 0 and grid[i][0] == grid[i][1] == grid[i][2]:
+                return "A" if grid[i][0] == "X" else "B"
+
+        for j in range(3):
+            if grid[0][j] != 0 and grid[0][j] == grid[1][j] == grid[2][j]:
+                return "A" if grid[0][j] == "X" else "B"
+
+        if grid[1][1] != 0 and (
+            grid[0][0] == grid[1][1] == grid[2][2]
+            or grid[0][2] == grid[1][1] == grid[2][0]
+        ):
+            return "A" if grid[1][1] == "X" else "B"
+
+        if 0 in grid[0] or 0 in grid[1] or 0 in grid[2]:
+            return "Pending"
+
+        return "Draw"
