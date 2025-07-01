@@ -39,7 +39,7 @@ class Solution:
             >>> numSpecial([[1,0,0],[0,1,0],[0,0,1]])
             3
 
-        LeetCode: Beats 96.34% of submissions
+        LeetCode: Beats 100% of submissions
         """
         special = 0
 

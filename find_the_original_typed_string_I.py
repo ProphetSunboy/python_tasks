@@ -23,7 +23,7 @@ class Solution:
             >>> possibleStringCount("aabbc")
             3
 
-        LeetCode: Beats 100% of submissions
+        LeetCode: Beats 96.34% of submissions
         """
         possible_s = 1
 
