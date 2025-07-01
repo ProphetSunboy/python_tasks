@@ -13,6 +13,7 @@ class Solution:
             word (str): The string as displayed on Alice's screen.
 
         Returns:
+            int: The number of possible original strings Alice could have intended.
 
         Example:
             >>> possibleStringCount("aabb")
