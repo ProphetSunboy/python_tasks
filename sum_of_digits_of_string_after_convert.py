@@ -1,5 +1,24 @@
 class Solution:
     def get_digit_sum(self, num: int) -> int:
+        """Calculate the sum of all digits in a given integer.
+
+        Args:
+            num (int): The integer whose digits need to be summed.
+
+        Returns:
+            int: The sum of all digits in the input integer.
+
+        Example:
+            >>> get_digit_sum(123)
+            6
+            >>> get_digit_sum(456)
+            15
+            >>> get_digit_sum(999)
+            27
+
+        Time complexity: O(log(num)) where num is the input integer
+        Space complexity: O(1) as we only use a constant amount of extra space
+        """
         digit_sum = 0
 
         while num > 0:
