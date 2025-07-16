@@ -1,3 +1,4 @@
+# First solution
 class Solution:
     def is_digit_sum_even(self, num: int) -> bool:
         """Determines if the sum of the digits of a given integer is even.
@@ -48,3 +49,30 @@ class Solution:
             counter += self.is_digit_sum_even(n)
 
         return counter
+
+
+# Second solution
+class Solution:
+    def countEven(self, num: int) -> int:
+        """Counts the number of positive integers less than or equal to `num` whose digit sums are even.
+
+        The digit sum of a positive integer is the sum of all its digits.
+
+        Args:
+            num (int): The upper bound integer.
+
+        Returns:
+            int: The count of positive integers ≤ num with an even digit sum.
+
+        Example:
+            >>> countEven(4)
+            2
+            >>> countEven(30)
+            14
+
+        Time complexity: O(log(num)), since summing the digits of num takes O(log(num)) time.
+        Space complexity: O(log(num)), due to the space used to store the string representation of num.
+
+        LeetCode: Beats 100% of submissions
+        """
+        return num // 2 if sum(map(int, str(num))) % 2 == 0 else (num - 1) // 2
