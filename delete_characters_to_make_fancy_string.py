@@ -1,3 +1,4 @@
+# First solution
 class Solution:
     def makeFancyString(self, s: str) -> str:
         """
@@ -14,7 +15,7 @@ class Solution:
         """
         fancy_s = []
         consecutive_count = 0
-        curr_consecutive = ''
+        curr_consecutive = ""
 
         for ch in s:
             if consecutive_count < 2 and ch == curr_consecutive:
@@ -26,4 +27,24 @@ class Solution:
                 consecutive_count = 1
                 fancy_s.append(ch)
 
-        return ''.join(fancy_s)
+        return "".join(fancy_s)
+
+
+# Second solution
+class Solution:
+    def makeFancyString(self, s: str) -> str:
+        prev_ch = s[0]
+        prev_count = 1
+        res = s[0]
+
+        for i in range(1, len(s)):
+            if s[i] == prev_ch:
+                if prev_count < 2:
+                    res += s[i]
+                    prev_count += 1
+            else:
+                prev_ch = s[i]
+                res += s[i]
+                prev_count = 1
+
+        return res
