@@ -25,7 +25,6 @@ class Solution:
 
         LeetCode: Beats 100% of submissions
         """
-
         while num1 > 0 and num2 > 0:
             if num1 >= num2:
                 n = max(num1 // num2, 1)
