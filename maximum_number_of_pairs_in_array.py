@@ -3,6 +3,9 @@ class Solution:
         """Given a 0-indexed integer list nums, repeatedly form pairs by removing two equal integers from nums.
         Each operation removes both integers, forming a pair. Perform this operation as many times as possible.
 
+        Args:
+            nums (list[int]): List of integers to form pairs from.
+
         Returns:
             list[int]: A list of size 2 where:
                 - answer[0] is the number of pairs formed,
