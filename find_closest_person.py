@@ -2,13 +2,12 @@ class Solution:
     def findClosest(self, x: int, y: int, z: int) -> int:
         """
         Determines which of two people reaches a third person first on a number line.
+        Both Person 1 and Person 2 move toward Person 3 at the same speed.
 
-        Given:
+        Args:
             x (int): Position of Person 1.
             y (int): Position of Person 2.
             z (int): Position of Person 3 (stationary).
-
-        Both Person 1 and Person 2 move toward Person 3 at the same speed.
 
         Returns:
             int: 1 if Person 1 arrives first,
