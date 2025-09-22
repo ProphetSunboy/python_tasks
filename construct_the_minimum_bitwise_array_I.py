@@ -1,7 +1,7 @@
 class Solution:
     def minBitwiseArray(self, nums: List[int]) -> List[int]:
         """
-        Givena a list nums of n prime integers, construct a list ans of length n such that for each index i:
+        Given a list nums of n prime integers, construct a list ans of length n such that for each index i:
             ans[i] | (ans[i] + 1) == nums[i]
         and ans[i] is minimized.
 
