@@ -8,6 +8,9 @@ class Solution:
         In each operation, you may pick two distinct indices i and j (where words[i] is non-empty)
         and move any character from words[i] to any position in words[j].
 
+        Args:
+            words (List[str]): List of input strings.
+
         Returns:
             bool: True if all strings can be made equal using any number of operations, False otherwise.
 
