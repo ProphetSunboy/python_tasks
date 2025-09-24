@@ -1,3 +1,4 @@
+# First Solution
 class Solution:
     def maxRepeating(self, sequence: str, word: str) -> int:
         """
@@ -49,3 +50,21 @@ class Solution:
             max_k_val = curr_k_val
 
         return max_k_val
+
+
+# Second solution
+class Solution:
+    def mostFrequent(self, nums: List[int], key: int) -> int:
+        """
+        Time Complexity: O(N * K), where N is the length of `sequence` and K is the maximum possible k.
+        Space Complexity: O(1)
+
+        LeetCode: Beats 100% of submissions
+        """
+        targets = defaultdict(int)
+
+        for i in range(1, len(nums)):
+            if nums[i - 1] == key:
+                targets[nums[i]] += 1
+
+        return max(targets.items(), key=lambda item: item[1])[0]
