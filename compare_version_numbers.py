@@ -8,6 +8,10 @@ class Solution:
         Compare the revisions in left-to-right order.
         If one version string has fewer revisions, treat the missing revisions as 0.
 
+        Args:
+            version1 (str): The first version string to compare.
+            version2 (str): The second version string to compare.
+
         Returns:
             int:
                 -1 if version1 < version2,
