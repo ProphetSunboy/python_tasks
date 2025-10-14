@@ -8,6 +8,9 @@ class Solution:
         digit (1-9) and a non-negative power of 10.
         For example, 500, 30, and 7 are base-10 components, whereas 537, 102, and 11 are not.
 
+        Args:
+            n (int): The positive integer to be decomposed into base-10 components.
+
         Returns:
             List[int]: A list of base-10 components that sum to n, sorted in descending order.
 
