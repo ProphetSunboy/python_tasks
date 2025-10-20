@@ -1,3 +1,4 @@
+# First solution
 class Solution:
     def finalValueAfterOperations(self, operations: list[str]) -> int:
         """Calculates the final value of variable X after performing a series of increment/decrement operations.
@@ -33,5 +34,23 @@ class Solution:
                 x -= val
             else:
                 x += val
+
+        return x
+
+
+# Second solution
+class Solution:
+    def finalValueAfterOperations(self, operations: List[str]) -> int:
+        """
+        Time complexity: O(n) - where n is number of operations
+        Space complexity: O(1) - constant space for counter
+
+        LeetCode: Beats 100% of submissions
+        """
+        ops = {"++X": 1, "X++": 1, "--X": -1, "X--": -1}
+        x = 0
+
+        for op in operations:
+            x += ops[op]
 
         return x
