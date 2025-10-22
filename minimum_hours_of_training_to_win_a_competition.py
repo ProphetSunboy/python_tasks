@@ -47,7 +47,3 @@ class Solution:
                 curr_exp += exp
 
         return training_hours
-
-
-a = Solution()
-print(a.minNumberOfHours(1, 1, [1, 1, 1, 1], [1, 1, 1, 50]))
