@@ -1,3 +1,4 @@
+# First solution
 class Solution:
     def findFinalValue(self, nums: list[int], original: int) -> int:
         """Given a list of integers `nums` and an integer `original`, repeatedly double `original` as long as it is found in `nums`.
@@ -22,6 +23,20 @@ class Solution:
         nums_d = {num: 1 for num in nums}
 
         while nums_d.get(original, 0):
+            original *= 2
+
+        return original
+
+
+# Second solution
+class Solution:
+    def findFinalValue(self, nums: List[int], original: int) -> int:
+        """
+        LeetCode: Beats 100% of submissions
+        """
+        nums_set = set(nums)
+
+        while original in nums_set:
             original *= 2
 
         return original
