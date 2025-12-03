@@ -38,9 +38,9 @@ def count_unique_subjects(teacher: pd.DataFrame) -> pd.DataFrame:
         0           1    2
         1           2    1
 
-        Time Complexity: O(n), where n is the number of rows in 'teacher'.
-        Space Complexity: O(n).
+    Time Complexity: O(n), where n is the number of rows in 'teacher'.
+    Space Complexity: O(n).
 
-        LeetCode: Beats 95.63% of submissions
+    LeetCode: Beats 95.63% of submissions
     """
     return teacher.groupby("teacher_id")["subject_id"].nunique().reset_index(name="cnt")
