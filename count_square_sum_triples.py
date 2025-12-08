@@ -1,6 +1,8 @@
+# First solution
 class Solution:
     def countTriples(self, n: int) -> int:
-        """Counts the number of square sum triples (a, b, c) such that:
+        """
+        Counts the number of square sum triples (a, b, c) such that:
             - 1 <= a, b, c <= n
             - a^2 + b^2 = c^2
 
@@ -14,8 +16,8 @@ class Solution:
             >>> countTriples(5)
             2
 
-        # Time complexity: O(n^2)
-        # Space complexity: O(1)
+        Time complexity: O(n^2)
+        Space complexity: O(1)
         """
         counter = 0
 
@@ -27,3 +29,38 @@ class Solution:
                     counter += 2
 
         return counter
+
+
+# Second solution
+class Solution:
+    def countTriples(self, n: int) -> int:
+        """
+        Counts the number of square sum triples (a, b, c) such that:
+            - 1 <= a, b, c <= n
+            - a^2 + b^2 = c^2
+
+        Args:
+            n (int): The upper bound for a, b, and c.
+
+        Returns:
+            int: The number of valid square sum triples.
+
+        Example:
+            >>> countTriples(5)
+            2
+
+        Time complexity: O(n^2)
+        Space complexity: O(1)
+
+        LeetCode: Beats 90.22% of submissions
+        """
+        count = 0
+
+        for c in range(5, n + 1):
+            for b in range(4, c):
+                a_squared = c * c - b * b
+                a = math.isqrt(a_squared)
+                if a < b and a * a == a_squared:
+                    count += 2
+
+        return count
