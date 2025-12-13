@@ -37,10 +37,10 @@ class Solution:
         Time Complexity: O(n log n), where n is the number of coupons (due to sorting).
         Space Complexity: O(n), for storing valid coupons.
 
-        LeetCode: Beats 94.06% of submissions
+        LeetCode: Beats 100% of submissions
         """
         valid = []
-        business_cat = ["electronics", "grocery", "pharmacy", "restaurant"]
+        business_cat = set(["electronics", "grocery", "pharmacy", "restaurant"])
 
         for i in range(len(code)):
             if isActive[i]:
