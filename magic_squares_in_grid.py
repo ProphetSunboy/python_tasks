@@ -7,7 +7,7 @@ class Solution:
         numbers from 1 to 9 exactly once, such that the sum of every row, every
         column, and both main diagonals is the same.
 
-        Parameters:
+        Args:
             grid (List[List[int]]): A 2D list representing the input grid, where
             each element is an integer (grid values may be up to 15).
 
