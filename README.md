@@ -1,14 +1,16 @@
-# 1000+ LeetCode, Codewars & Data Science Solutions 🚀
+# 950+ LeetCode, Codewars & Data Science Solutions 🚀
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool" alt="LeetCode Stats" />
+  <a href="https://leetcode.com/u/Hplss/">
+    <img src="https://leetcard.jacoblin.cool" alt="LeetCode Stats" />
+  </a>
 </p>
 
-[![LeetCode Profile](https://img.shields.io)](https://leetcode.com)
+[![LeetCode Profile](https://img.shields.io)](https://leetcode.com/u/Hplss/)
 [![Python](https://img.shields.io)](https://www.python.org)
 [![Pandas](https://img.shields.io)](https://pandas.pydata.org)
-[![Consistency](https://img.shields.io)](https://github.com)
-[![LinkedIn](https://img.shields.io)](https://www.linkedin.com)
+[![Consistency](https://img.shields.io)](https://github.com/ProphetSunboy)
+[![LinkedIn](https://img.shields.io)](https://www.linkedin.com/in/vlad-kapitsa/)
 
 ## 📌 Overview
 This repository is my personal **Algorithm Knowledge Base**. It reflects a rigorous journey of mastering Python, Algorithms, and Data Manipulation across multiple platforms.
@@ -38,4 +40,4 @@ This repository follows a **Flat Warehouse** structure, optimized for high-speed
 
 ---
 **Let's connect!**  
-If you find these solutions helpful or want to discuss ML/Algorithms, feel free to **Star ⭐** this repository or reach out on [LinkedIn](https://www.linkedin.com).
+If you find these solutions helpful or want to discuss ML/Algorithms, feel free to **Star ⭐** this repository or reach out on [LinkedIn](https://www.linkedin.com/in/vlad-kapitsa/).
