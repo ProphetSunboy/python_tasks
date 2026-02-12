@@ -1,6 +1,10 @@
 # 1000+ LeetCode, Codewars & Data Science Solutions 🚀
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/Hplss?theme=unicorn)](https://leetcode.com/u/Hplss/)
+<p align="center">
+  [![LeetCode Stats](https://leetcard.jacoblin.cool/Hplss?theme=unicorn)](https://leetcode.com/u/Hplss/)
+</p>
+
+
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Hplss/)
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
