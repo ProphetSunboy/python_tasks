@@ -1,4 +1,4 @@
-# 950+ LeetCode, Codewars & Data Science Solutions 🚀
+# 949 LeetCode, Codewars & Data Science Solutions 🚀
 
 [![LeetCode Stats](https://leetcard.jacoblin.cool/Hplss?theme=unicorn)](https://leetcode.com/u/Hplss/)
 
