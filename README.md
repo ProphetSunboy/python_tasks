@@ -1,12 +1,12 @@
 # 1000+ LeetCode, Codewars & Data Science Solutions 🚀
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/Hplss? theme=unicorn& font=Ubuntu)](https://leetcode.com/u/Hplss/)
+[![LeetCode Stats](https://leetcard.jacoblin.cool/Hplss?theme=unicorn&font=Ubuntu)](https://leetcode.com/u/Hplss/)
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116? style=for-the-badge& logo=leetcode& logoColor=black)](https://leetcode.com/u/Hplss/)
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB? style=for-the-badge& logo=python& logoColor=white)](https://www.python.org)
-[![Pandas](https://img.shields.io/badge/Pandas-70+_Tasks-150458? style=for-the-badge& logo=pandas& logoColor=white)](https://pandas.pydata.org)
-[![GitHub Streak](https://img.shields.io/badge/Current_Streak-281_Days-brightgreen? style=for-the-badge& logo=github)](https://github.com/ProphetSunboy)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2? style=for-the-badge& logo=linkedin)](https://www.linkedin.com/in/vlad-kapitsa/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Hplss/)
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
+[![Pandas](https://img.shields.io/badge/Pandas-70+_Tasks-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
+[![GitHub Streak](https://img.shields.io/badge/Current_Streak-281_Days-brightgreen?style=for-the-badge&logo=github)](https://github.com/ProphetSunboy)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/vlad-kapitsa/)
 
 ---
 
