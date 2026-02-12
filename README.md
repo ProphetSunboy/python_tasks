@@ -1,13 +1,13 @@
 <h1 align="center">950+ LeetCode, Codewars & Data Science Solutions 🚀</h1>
 
 <p align="center">
-  <a href="https://leetcode.com">
+  <a href="https://leetcode.com/u/Hplss/">
     <img src="https://leetcard.jacoblin.cool" alt="LeetCode Stats" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://leetcode.com">
+  <a href="https://leetcode.com/u/Hplss/">
     <img src="https://img.shields.io" alt="LeetCode">
   </a>
   <a href="https://www.python.org">
@@ -19,7 +19,7 @@
   <a href="https://github.com">
     <img src="https://img.shields.io" alt="GitHub Streak">
   </a>
-  <a href="https://www.linkedin.com">
+  <a href="https://www.linkedin.com/in/vlad-kapitsa/">
     <img src="https://img.shields.io" alt="LinkedIn">
   </a>
 </p>
