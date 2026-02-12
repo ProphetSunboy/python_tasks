@@ -1,28 +1,12 @@
-<h1 align="center">950+ LeetCode, Codewars & Data Science Solutions 🚀</h1>
+# 1000+ LeetCode, Codewars & Data Science Solutions 🚀
 
-<p align="center">
-  <a href="https://leetcode.com/u/Hplss/">
-    <img src="https://leetcard.jacoblin.cool" alt="LeetCode Stats" />
-  </a>
-</p>
+[![LeetCode Stats](https://leetcard.jacoblin.cool)](https://leetcode.com/u/Hplss/)
 
-<p align="center">
-  <a href="https://leetcode.com/u/Hplss/">
-    <img src="https://img.shields.io" alt="LeetCode">
-  </a>
-  <a href="https://www.python.org">
-    <img src="https://img.shields.io" alt="Python">
-  </a>
-  <a href="https://pandas.pydata.org">
-    <img src="https://img.shields.io" alt="Pandas">
-  </a>
-  <a href="https://github.com">
-    <img src="https://img.shields.io" alt="GitHub Streak">
-  </a>
-  <a href="https://www.linkedin.com/in/vlad-kapitsa/">
-    <img src="https://img.shields.io" alt="LinkedIn">
-  </a>
-</p>
+[![LeetCode](https://img.shields.io)](https://leetcode.com/u/Hplss/)
+[![Python](https://img.shields.io)](https://www.python.org)
+[![Pandas](https://img.shields.io)](https://pandas.pydata.org)
+[![GitHub Streak](https://img.shields.io)](https://github.com/ProphetSunboy)
+[![LinkedIn](https://img.shields.io)](https://www.linkedin.com/in/vlad-kapitsa/)
 
 ---
 
