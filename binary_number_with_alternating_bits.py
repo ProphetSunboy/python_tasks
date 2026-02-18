@@ -1,3 +1,4 @@
+# First Solution
 class Solution:
     def hasAlternatingBits(self, n: int) -> bool:
         """
@@ -18,5 +19,42 @@ class Solution:
         for i in range(1, len(b)):
             if b[i] == b[i - 1]:
                 return False
+
+        return True
+
+
+# Second Solution
+class Solution:
+    def hasAlternatingBits(self, n: int) -> bool:
+        """
+        Check whether a positive integer has alternating bits.
+
+        Two adjacent bits must always have different values.
+
+        Args:
+            n (int): Input positive integer.
+
+        Returns:
+            bool: True if the binary representation of n has alternating bits,
+                False otherwise.
+
+        Example:
+            Input: n = 5
+            Output: true
+
+        Time Complexity: O(log n) - Iterates through the bits of n.
+        Space Complexity: O(1) - Uses constant extra space.
+
+        LeetCode: Beats 100% of submissions
+        """
+        prev = n & 1
+        n //= 2
+
+        while n > 0:
+            if n & 1 == prev:
+                return False
+
+            prev = n & 1
+            n //= 2
 
         return True
