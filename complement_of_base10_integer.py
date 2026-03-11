@@ -1,4 +1,5 @@
-class FirstSolution:
+# First solution
+class Solution:
     def bitwiseComplement(self, n: int) -> int:
         """
         Given an integer n, return its complement.
@@ -15,7 +16,7 @@ class FirstSolution:
         Time complexity: O(n)
         Space complexity: O(n)
 
-        LeetCode: Beats 96.80%
+        LeetCode: Beats 100%
         """
         flips = ["1", "0"]
         complement = ""
@@ -27,7 +28,8 @@ class FirstSolution:
         return int(complement, 2)
 
 
-class SecondSolution:
+# Second solution
+class Solution:
     def bitwiseComplement(self, n: int) -> int:
         bin_n = bin(n)[2:]
 
