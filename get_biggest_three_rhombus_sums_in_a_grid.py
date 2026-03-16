@@ -19,7 +19,11 @@ class Solution:
             descending order.
 
         Example:
-            Input: grid = [[3,4,5,1,3],[3,3,4,2,3],[20,30,200,40,10],[1,5,5,4,1],[4,3,2,2,5]]
+            Input: grid = [[3,4,5,1,3],
+                           [3,3,4,2,3],
+                           [20,30,200,40,10],
+                           [1,5,5,4,1],
+                           [4,3,2,2,5]]
             Output: [228,216,211]
 
         Time Complexity: O(m * n * min(m, n)), where m and n are the number of
